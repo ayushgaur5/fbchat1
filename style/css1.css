@@ -1,0 +1,306 @@
+/* 
+    Document   : css1
+    Created on : Aug 28, 2013, 4:04:36 PM
+    Author     : Ayush
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body
+{
+    margin: 0;
+    background: #272b2a; /* Old browsers */
+background: -moz-linear-gradient(top,  #272b2a 0%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#272b2a), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #272b2a 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #272b2a 0%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #272b2a 0%,#000000 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #272b2a 0%,#000000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272b2a', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+color:lightgray;
+
+}
+#outer
+{
+    position: absolute;
+    left:50%;
+    margin-left:-512px;
+    width:1024px;
+    background-color:#222222;
+box-shadow: 0px 0px 10px white;
+overflow-x:hidden;
+height: auto;
+min-height:800px;
+}
+#info
+{
+    position:fixed;
+    bottom:10px;
+    background-color: #AAAAAA;
+    color:black;
+    width:100%;
+}
+
+#frlist:hover
+{
+     opacity: 1;
+}
+body a{
+    color: aliceblue;
+}
+#frlist
+{
+    background-color: #111111;
+    position: absolute;
+    top:-130px;
+    height:130px;
+    width:100%;
+    border-bottom: 3px #555555 solid;
+    overflow-x: scroll;
+    white-space: nowrap;
+    z-index: 2;
+}
+#frlist::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+ 
+#frlist::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4); 
+	background-color:transparent;
+        border-radius: 10px;
+}
+ 
+#frlist::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    background-color: activeborder;
+}
+#frbutton
+{
+    background-color: gray;
+    color:black;
+    border: 3px solid #333333;
+    position: absolute;
+    margin:0;
+    width:50px;
+    margin-left:462px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    font-size: 15px;
+    top:0;
+    width: 100px;
+    height:50px;
+    margin-top:-20px;
+    z-index: 1;
+    padding-top: 15px;
+}
+#frbutton:hover
+{
+    cursor: pointer;
+    background-color: white;
+}
+.frclass
+{
+    height:60px;
+    width:60px;
+    overflow: hidden;
+    border-radius: 5px;
+    border:2px solid #777777;
+    margin:15px 5px 0px 5px ;
+}
+.frout
+{
+    height:100px;
+    width:90px;
+    display: inline-block;
+    overflow: hidden;
+    margin:0px 2px;
+    
+}
+.frout:hover
+{
+    background-color: #444444;
+    cursor:pointer;
+}
+#chatframe
+{
+    display: none;
+    width:90%;
+    border:1px solid gray;
+    border-radius: 10px;
+    height: 500px;
+}
+#conv
+{
+    width: 96%;
+    height:400px;
+    margin:10px;
+    border: 2px dotted gray;
+    color:black;
+    border-radius: 10px;
+    overflow-y: hidden;
+    
+}
+#convtxt::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+ 
+#convtxt::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4); 
+	background-color:transparent;
+        border-radius: 10px;
+}
+ 
+#convtxt::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    background-color: activeborder;
+}
+#msg
+{
+    font-size: 25px;
+    width:80%;
+    margin:10px;
+}
+#sendmsg
+{
+    font-size: 25px;
+    margin:10px;
+}
+#headmsg
+{
+    background-color: gray;
+    color:black;
+    font-size:20px;
+    text-align: center;
+}
+#convtxt
+{
+    width:100%;
+    height: 95%;
+    color:white;
+    bottom: 0px;
+    position: relative;
+    text-align: left;
+    overflow-y:scroll;
+}
+.chatpic
+{
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    border:2px solid beige;
+    margin-bottom: -10px;
+}
+.msgdiv1
+{
+    text-align: left;
+}
+.msgdiv2
+{
+    text-align: right;
+}
+.txtmsg
+{
+    margin:5px;
+    font-size: 25px;
+    display:inline-block;
+}
+#addfrnd
+{
+    height:60px;
+    width:60px;
+    display: inline-block;
+    overflow: hidden;
+    
+    border-radius: 10px;
+    background-color: #777777;
+    font-size: 50px;
+    color:black;
+    border: 2px solid #999999;
+    margin: 20px;
+   
+}
+#addfrnd:hover
+{
+    cursor: pointer;
+    background-color: #999999;
+}
+.trans
+{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 4;
+    display: none;
+}
+.popup
+{
+    background-color: #222222;
+    z-index: 5;
+    width:400px;
+    height:50px;
+    left:auto;
+    margin:auto;
+    padding: 10px;
+    border: 3px solid #cc6600;
+    border-radius: 5px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left:-200px;
+    margin-top: -25px;
+    display: none;
+}
+#srchfrnd
+{
+    font-size: 20px;
+    width:300px;
+    border-radius: 5px;
+}
+
+#srchlist
+{
+    background-color: whitesmoke;
+    width:300px;
+    height:auto;
+    display: none;
+}
+#srchlist a
+{
+    text-decoration: none;
+}
+.selfrnd
+{
+    height:50px;
+    overflow: hidden;
+    color:#222222;
+    font-size: 20px;
+}
+.selfrnd img
+{
+    height:50px;
+    float: left;
+}
+.selfrnd:hover
+{
+    background-color: #BBBBBB;
+    cursor: pointer;
+}
+.addbutton{
+    border-radius: 100%;
+    border:2px #555555 inset;
+}
+#comet_iframe
+{
+        display:none;
+}

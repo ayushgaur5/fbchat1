@@ -1,0 +1,33 @@
+[13-Sep-2013 14:47:17 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:20 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:27 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:35 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:38 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:46 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:47 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:48 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:49 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:47:51 America/Chicago] PHP Fatal error:  Uncaught CurlException: 7: couldn't connect to host
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:56:58 America/Chicago] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:57:00 America/Chicago] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:57:15 America/Chicago] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 14:57:21 America/Chicago] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 15:00:13 America/Chicago] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/fbchatx2/public_html/fb-src/base_facebook.php on line 994
+[13-Sep-2013 15:09:39 America/Chicago] CSRF state token does not match one provided.
+[13-Sep-2013 15:09:48 America/Chicago] CSRF state token does not match one provided.
+[13-Sep-2013 15:09:48 America/Chicago] CSRF state token does not match one provided.
